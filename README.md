@@ -1,33 +1,3 @@
-### This repo is used as an assessment during the course of the Turing modules, if you are viewing this repository outside the context of an assessment, you’re in violation of the Academic Integrity policy you agreed to as a student.
-
-## Turing Cafe - Reservation Portal
-
-This application was built with `create-react-app`.
-
-### Set Up
-
-Fork and clone down the repo.
-
-<!-- On GitHub, create a new, empty repository and name it something like 'turing-cafe-fe'.
-
-By the end of the assessment, update the current remote (origin) and point it at the new URL of the repository you just created on GitHub. You can read how to do this [here](https://help.github.com/en/articles/changing-a-remotes-url). Once you've updated the remote, you should be able to push up to that repo after you have at least one commit.
- -->
-`cd` into the repo you cloned down. 
- 
-Run `npm install` to install dependencies for the repo.
-
-Run `npm start` to start up your React server.
-
-Run `npm run cypress` to start up the Cypress testing server.
-
-### Expectations / Rules
-
-Build a React App that displays the current reservations for the Turing Cafe!
-
-You will have 3 hours to build this application.
-
-![turing-cafe-screenshot](https://user-images.githubusercontent.com/20754511/57332366-dbd59d00-70d7-11e9-9de6-967d7aca98a4.png)
-
 We do want to see good commit habits - atomic commits that log small, focused changesets. Don't worry about creating GitHub issues, though.
 
 ### Iteration 0
@@ -62,6 +32,10 @@ When the user makes a reservation, the application should make a POST request to
 **Keep any fetch calls you write in the App component for now**
 
 (If you have time to refactor your fetch calls into a separate helper file, that is fine, but it is *NOT* a requirement for this application.)
+
+
+# 👍This is as far as I got today: Shane Misra 5/30😬:
+## I began the deleting functionality, but did not finish writing the DELETE fetch call to the backend API, so it does not persist upon page reload (the POST stuff does).
 
 ### Iteration 5 (extension)
 
